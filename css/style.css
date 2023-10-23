@@ -1,0 +1,87 @@
+/* Reset some default styles */
+font-family: 'Jost', sans-serif;
+font-family: 'Chakra Petch', sans-serif;
+
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex wrap; /* Use flexbox for layout */
+    align-items: center; /* Vertically center items */
+    
+    background-color: black; /* Background color of the header */
+    color:#b74890; /* Text color */
+    padding: 10px 20px; /* Add padding for spacing */
+
+}
+
+
+.logo img {
+    max-height: 40px; /* Set the maximum height of the logo */
+    margin-right: 20px; /* Add spacing between logo and h1 */
+}
+
+h1 {
+    flex-grow: 1; /* Allow h1 to take up remaining space */
+    text-align: center; 
+    font-size: 40px; 
+    font-weight: bold; /* Set font weight */
+    font-family: chakra Petch;
+
+}
+header p{
+    text-align: center;
+    font-family: jost;
+    font-size: 20px;
+}
+
+h3{
+    text-align:center;
+    font-family: chakra Petch;
+    color:white;
+    font-size: 30px;
+}
+
+Ul{
+    list-style: none;
+    display:flex wrap;
+    flex-direction: row;
+}
+
+.review {
+    background-color: black;
+    border: 2px solid #b74890;
+    border-radius: 5px; 
+    color:#b74890;    
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    margin:20px;
+}  
+.website{
+    padding-left:30px;
+    height:100%;
+    width:100%;
+}
+
+.testimonial {
+    font-size: 20px;
+    padding-left: 20px;
+    font-family:jost;
+  }
+
+footer {
+    text-align: center;
+    background-color:grey;
+    color: white;
+    
+}
+
